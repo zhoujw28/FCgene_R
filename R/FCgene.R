@@ -1,5 +1,5 @@
 #' Fold Change Analysis for Gene Expression Profiling
-
+#'
 #' Conduct the differential expression analysis using fold change method and find the (significantly) differential expressed genes(DEGs)
 
 #' @param exprSet The gene expression profiling with each row represents a gene, each column represents an sample

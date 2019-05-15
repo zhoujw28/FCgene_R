@@ -2,8 +2,7 @@
 % Please edit documentation in R/FCgene.R
 \name{FCgene}
 \alias{FCgene}
-\title{Fold Change Analysis for Gene Expression Profiling
-Conduct the differential expression analysis using fold change method and find the (significantly) differential expressed genes(DEGs)}
+\title{Fold Change Analysis for Gene Expression Profiling}
 \usage{
 FCgene(exprSet, sig.level = 2, col.g1, col.g2, writeout = FALSE,
   q = 0.2, log.tran = FALSE)
@@ -27,6 +26,5 @@ FCgene(exprSet, sig.level = 2, col.g1, col.g2, writeout = FALSE,
 A list that contains a factor that contains the fold change results of all the , name of the DEGS, their fold change result
 }
 \description{
-Fold Change Analysis for Gene Expression Profiling
 Conduct the differential expression analysis using fold change method and find the (significantly) differential expressed genes(DEGs)
 }
